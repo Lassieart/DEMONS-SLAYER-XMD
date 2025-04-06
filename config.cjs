@@ -26,7 +26,7 @@ const config = {
   ANTI_DELETE: process.env.ANTI_DELETE !== undefined ? process.env.ANTI_DELETE === 'true' : true,
   REJECT_CALL: process.env.REJECT_CALL !== undefined ? process.env.REJECT_CALL === 'true' : false,
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
-  MODE: process.env.MODE || "private",
+  MODE: process.env.MODE ||"public",
   OWNER_NAME: process.env.OWNER_NAME || "Marisel",
   OWNER_NUMBER: process.env.OWNER_NUMBER || "+27846585837",
   SUDO_NUMBER: process.env.SUDO_NUMBER || "254740007567",
